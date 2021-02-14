@@ -1,0 +1,677 @@
+.navCont {
+    margin-top: 1rem;
+}
+
+.logo {
+    margin-left: 7%;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.introDiv {
+    width: 45%
+}
+
+.imgCont {
+    margin-left: 25%
+}
+
+.description {
+    max-width: 80%;
+    font-weight: normal;
+    font-size: 1.4vw;
+    line-height: 2vw;
+    color: rgb(68, 68, 68);
+    margin: 20px 0px;
+}
+
+.description2 {
+    max-width: 80%;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color: rgb(68, 68, 68);
+}
+
+.descriptioncutomer {
+    max-width: 43%;
+    margin: 18px auto;
+    font-size: 1.4vw;
+    font-weight: normal;
+    line-height: 27px;
+    text-align: center;
+    color: rgb(68, 68, 68)
+}
+
+.descriptioncutomer2 {
+    max-width: 43%;
+    margin: 18px auto;
+    font-size: 1.4vw;
+    font-weight: normal;
+    line-height: 27px;
+    text-align: center;
+    color: rgb(68, 68, 68)
+}
+
+.buttondiff {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 30px;
+    background-color: rgb(120, 72, 202) !important;
+    border-color: rgb(120, 72, 202) !important;
+    border-radius: 10px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.h2style {
+    font-weight: bold;
+    font-size: 3vw;
+    line-height: 4vw;
+    color: rgb(51, 51, 51);
+}
+
+.h2style2 {
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: rgb(51, 51, 51);
+}
+
+.mobilenumber {
+    text-overflow: ellipsis;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    line-height: 24px !important;
+    color: rgb(68, 68, 68) !important;
+    box-shadow: rgba(25, 39, 67, 0.1) 0px 0px 5px !important;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+}
+
+.appstoreheading {
+    color: rgb(255, 255, 255);
+    max-width: 750px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+.app-store {
+    background: rgb(120, 72, 202);
+    padding: 60px 40px;
+}
+
+.appcontainer {
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 1030px;
+    margin: 0px auto;
+    padding: 40px 0px 60px;
+}
+
+.applist {
+    padding: 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.additemsdiv {
+    padding-top: 200px;
+    width: 43%;
+    padding-left: 50px
+}
+
+.ListContent {
+    padding: 15px 24px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+.ListContent img {
+    width: 46px;
+    height: 46px;
+}
+
+.categoriesDiv {
+    max-width: 20%;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+}
+
+.ListContent p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+}
+
+.tracksec {
+    background: rgb(246, 246, 246);
+    padding: 60px 40px;
+}
+
+.invite {
+    background: rgb(246, 246, 246);
+    padding: 60px 40px;
+}
+
+.youtube {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: 30px auto;
+    height: 380px;
+}
+
+.youtube iframe {
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.whitebg {
+    background: rgb(255, 255, 255);
+    padding: 80px 80px 100px
+}
+
+.tescard {
+    position: relative;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(21 39 73 / 15%) 0px 0px 8px;
+    border-radius: 16px;
+    max-width: 990px;
+    margin: 50px auto;
+}
+
+
+
+.profilecartoon::before {
+    content: "";
+    background: rgb(120, 72, 202);
+    border-radius: 100%;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    z-index: 0;
+    left: 10%;
+    top: 25%;
+}
+
+.profilecartoon::after {
+    content: "";
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    z-index: 0;
+    left: 18%;
+    bottom: 28%;
+    box-shadow: rgb(21 39 73 / 25%) 0px 0px 16px
+}
+
+.profilepic {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(21 39 73 / 25%) 0px 0px 16px;
+    border-radius: 100%;
+    height: 108px;
+    width: 108px;
+    border: 4px solid rgb(255, 255, 255);
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15%;
+    z-index: 4;
+    position: relative;
+}
+
+.testrev {
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 30px;
+    color: rgb(51, 51, 51);
+}
+
+.testdec {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(51, 51, 51)
+}
+
+.testname {
+    color: rgb(120, 72, 202);
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.testdesig {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(102, 102, 102);
+    display: block;
+}
+
+.orange {
+    width: 25px;
+    height: 26px;
+    left: -10%;
+    top: -40%;
+    background: rgb(255, 221, 176);
+    position: absolute;
+    border-radius: 100%;
+    z-index: 0
+}
+
+.blue {
+    width: 17px;
+    height: 17px;
+    right: -16%;
+    top: 40%;
+    background: rgb(129, 212, 250);
+    position: absolute;
+    border-radius: 100%;
+    z-index: 0
+}
+
+.yellow {
+    width: 6px;
+    height: 6px;
+    right: -20%;
+    top: 20%;
+    background: rgb(251, 175, 28);
+    position: absolute;
+    border-radius: 100%;
+    z-index: 0
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.buttons a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 12px 80px 12px 30px;
+    text-transform: uppercase;
+    margin: 0px 18px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttons a .download {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 56px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.07)
+}
+
+
+.formContainer {
+    background: rgb(246, 246, 246);
+    border-radius: 8px;
+    padding: 4.3vw 7.1vw 1.5vw;
+    max-width: 942px;
+    margin: 22px auto;
+}
+
+.emailinp input {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    line-height: 24px !important;
+    color: rgb(68, 68, 68) !important;
+    box-shadow: rgba(25, 39, 67, 0.1) 0px 0px 5px !important;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 30px;
+}
+
+.emailinp textarea {
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 16px;
+    border-radius: 8px;
+    line-height: 24px !important;
+    color: rgb(68, 68, 68) !important;
+    box-shadow: rgba(25, 39, 67, 0.1) 0px 0px 5px !important;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 30px;
+}
+
+.submitbutton {
+    width: 218px;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    padding: 12px 28px;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(120, 72, 202) !important;
+    background-color: rgb(120, 72, 202) !important;
+}
+
+.contactDetails {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 920px;
+    margin: 0px auto;
+    padding: 60px 0px 20px;
+
+}
+
+.contactDetails a {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 45px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+    transition: color 0.2s ease-in-out 0s;
+    text-decoration: none;
+}
+
+
+
+
+.contactDetails a span {
+    margin-left: 15px;
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 40px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.socialLinks ul {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.socialLinks ul li {
+    margin: 0px 15px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.socialLinks ul li a {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.getDiv {
+    padding: 15px 24px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(21 39 73 / 15%) 0px 0px 8px;
+    border-radius: 16px;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+.stepContainer {
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 40px 0px 60px;
+}
+
+.stepsListItem {
+    padding: 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.stepsListContent {
+    padding: 15px 24px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(21 39 73 / 15%) 0px 0px 8px;
+    border-radius: 16px;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+.titleCont {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.titleCont span {
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.faqcont {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.faqcont h3 {
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(51, 51, 51)
+}
+
+.faqcont p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+    max-width: 654px;
+    margin: 0px auto 50px
+}
+
+.faqcont p a {
+    color: rgb(68, 68, 68);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .contactDetails {
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        max-width: 920px;
+        margin: 0px auto;
+        padding: 60px 0px 20px;
+
+    }
+
+    .h2style {
+        font-size: 1.3em;
+        line-height: 1.5em;
+    }
+
+    .description {
+        font-size: 0.6em;
+        line-height: 1em;
+    }
+
+    .contactDetails a {
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        margin: 0px 0px;
+        margin-bottom: 20px;
+    }
+
+    .socialLinks {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .buttons a {
+
+        margin-bottom: 20px;
+    }
+
+    .additemsdiv {
+        padding-top: 40px;
+        width: 100%;
+        padding-left: 5px
+    }
+
+    .introDiv {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .introDiv input {
+
+        margin-bottom: 10px;
+    }
+
+    .imgCont {
+        margin-left: 0%;
+    }
+
+    .testrev {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .orange {
+        display: none;
+    }
+
+    .blue {
+        display: none;
+    }
+
+    .descriptioncutomer {
+        max-width: 75%;
+        margin: 10px auto;
+        font-size: 0.5em;
+        line-height: 1em;
+    }
+
+    .descriptioncutomer2 {
+        max-width: 90%;
+        margin: 10px auto;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .h2style2 {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .description2 {
+        font-size: 0.7em;
+        line-height: 1em;
+        margin-bottom: 25px
+    }
+
+    .yellow {
+        display: none;
+    }
+
+    .profilecartoon::before {
+        left: 10%;
+        top: 9%;
+    }
+
+    .whitebg {
+        padding: 80px 30px 100px;
+    }
+
+
+    .faqcont {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .profilecartoon::after {
+        left: 38%;
+        bottom: 64%;
+
+    }
+}
