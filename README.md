@@ -1,6 +1,6 @@
 ## Demo desktop
 
-[![Demo Doccou alpha](http://gifs.com/gif/desktop-VAY76W)]
+[![Demo Doccou alpha](https://j.gifs.com/VAY76W.gif)]
 
 ## Demo mobile
 
